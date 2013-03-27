@@ -132,6 +132,21 @@ body {
     border-radius: 10px;
 }
 
+#email {
+	font-size: 20px;
+	text-shadow: 1px 0px 1px #48a7d9;
+	color: #28110c;
+	size: 10px;
+}
+
+#indiceFAQ a {
+	color: #48a7d9;
+}
+
+#indiceFAQ a:hover {
+	color: #ec0960;
+}
+
 footer {
     color: #d49263;
 }
