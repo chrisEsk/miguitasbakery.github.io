@@ -64,7 +64,7 @@ app.controller('AppCtrl', function ($scope, $window, $translate, $document) {
     };
 
     $scope.viewMenu = function () {
-        $window.open('https://drive.google.com/open?id=192BbWN54qnY1Ed_anomfWvgUhellpQas', '_blank');
+        $window.open('https://drive.google.com/open?id=1Bt8Unsm7mLzVYZrJG2UZYmppdmIMXbUj', '_blank');
     };
 
     $scope.prettyScroll = function (idSection) {
