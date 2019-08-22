@@ -1,0 +1,10 @@
+{
+    "app.name.company": "Miguitas Bakery",
+
+    "app.button.search": "Search",
+    "app.button.login": "Sign in",
+
+    "app.label.errors.field": "This field is required",
+
+    "app.pages.home.title1": "Welcome!"
+}
