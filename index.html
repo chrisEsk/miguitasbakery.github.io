@@ -2,53 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>(･ᴥ･) Miguitas Bakery </title>
+  <meta charset="utf-8">
+  <title>(･ᴥ･) Miguitas Bakery</title>
 
-    <base href="/" />
-    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="Miguitas Bakery 🐾 Premium gourmet treats for your pet!">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="msapplication-tap-highlight" content="no">
-    <link href="assets/icon/favicon.ico" rel="icon" type="image/x-icon" />
+  <base href="/" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="Miguitas Bakery 🐾 Premium gourmet treats for your pet!">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <link href="assets/icon/favicon.ico" rel="icon" type="image/x-icon" />
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#f0759b">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f0759b">
 <link rel="stylesheet" href="styles.05c7d8e0c427c3399898.css"></head>
 
 <body>
-    <app-root></app-root>
-    <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <script>
+    (function () {
+      // Retrieve the URL the user was trying to access when receiving the 404.
+      var redirect = sessionStorage.redirect;
+      // Remove the URL from sessionStorage.
+      delete sessionStorage.redirect;
+      // Check if we actually need to redirect.
+      if (redirect && redirect != location.href) {
+        // We need to redirect to the URL the user was trying to access.
+        history.replaceState(null, null, redirect);
+      }
+    })();
+    // Parse.FacebookUtils.init({ // this line replaces FB.init({
+    //   appId: '987971754588010', // Facebook App ID
+    //   status: true,  // check Facebook Login status
+    //   cookie: true,  // enable cookies to allow Parse to access the session
+    //   xfbml: true,  // initialize Facebook social plugins on the page
+    //   version: 'v3.0' // point to the latest Facebook Graph API version
+    // });
+    // window.fbAsyncInit = function () {
+    //   FB.init({
+    //     appId: '425154128304519',
+    //     cookie: true,
+    //     xfbml: true,
+    //     version: 'v3.3'
+    //   });
+    //   FB.AppEvents.logPageView();
+    // };
 
-    <!-- <script>
-        // Parse.FacebookUtils.init({ // this line replaces FB.init({
-        //     appId      : '987971754588010', // Facebook App ID
-        //     status     : true,  // check Facebook Login status
-        //     cookie     : true,  // enable cookies to allow Parse to access the session
-        //     xfbml      : true,  // initialize Facebook social plugins on the page
-        //     version    : 'v3.0' // point to the latest Facebook Graph API version
-        // });
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: '425154128304519',
-                cookie: true,
-                xfbml: true,
-                version: 'v3.3'
-            });
-            FB.AppEvents.logPageView();
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) { return; }
-            js = d.createElement(s); js.id = id;
-            js.src = "https://connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script> -->
+    // (function (d, s, id) {
+    //   var js, fjs = d.getElementsByTagName(s)[0];
+    //   if (d.getElementById(id)) { return; }
+    //   js = d.createElement(s); js.id = id;
+    //   js.src = "https://connect.facebook.net/en_US/sdk.js";
+    //   fjs.parentNode.insertBefore(js, fjs);
+    // }(document, 'script', 'facebook-jssdk'));
+  </script>
 <script src="runtime-es2015.fe675ac554319e5ef2a2.js" type="module"></script><script src="polyfills-es2015.181b7740c4a5eb1c4b8d.js" type="module"></script><script src="runtime-es5.d178824d659a80ceae7b.js" nomodule></script><script src="polyfills-es5.01ae2373e7abdcf74201.js" nomodule></script><script src="main-es2015.da62f1d113e98ece999c.js" type="module"></script><script src="main-es5.950562da6f2e6f531647.js" nomodule></script></body>
 
 </html>
