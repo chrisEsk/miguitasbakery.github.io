@@ -1,7 +1,7 @@
 {
-  "name": "miguitas-app",
-  "short_name": "miguitas-app",
-  "theme_color": "#f0759b",
+  "name": "Miguitas Bakery",
+  "short_name": "Miguitas Bakery",
+  "theme_color": "#D36788",
   "background_color": "#79D5CD",
   "display": "standalone",
   "scope": "/",

@@ -1,10 +1,10 @@
 {
   "configVersion": 1,
-  "timestamp": 1566947520073,
+  "timestamp": 1567013717222,
   "index": "/index.html",
   "assetGroups": [
     {
-      "name": "miguitas-app",
+      "name": "Miguitas Bakery",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
@@ -253,7 +253,6 @@
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
         "/assets/img/gradientBackground.png",
-        "/assets/img/ilapa_icon.png",
         "/assets/img/miguiicon.png",
         "/assets/img/miguita_mel.png",
         "/assets/img/miguitas_logo.png",
@@ -266,7 +265,7 @@
   ],
   "dataGroups": [
     {
-      "name": "miguitas-app",
+      "name": "Miguitas Bakery",
       "patterns": [
         "http:\\/\\/ionicframework\\.com\\/"
       ],
@@ -495,16 +494,15 @@
     "/assets/i18n/es.json": "6f9ed7bacfca6f31e64809a82bcc01d7c44dbec1",
     "/assets/icon/favicon.ico": "c1b434393cbff41cbb6d195704663cd1e6ca76f0",
     "/assets/icon/waze.png": "e0ce6e39955d23448508ae09a328147e38f3dd3f",
-    "/assets/icons/icon-128x128.png": "0fdff338c9adb2daeb0b81cf971a91935eff11da",
-    "/assets/icons/icon-144x144.png": "1fdcda2fe51b2e3dd616d53df4d9fcd8ee76e165",
-    "/assets/icons/icon-152x152.png": "257629f617def8f1dfcd96bf934ac04ee627b035",
-    "/assets/icons/icon-192x192.png": "4ec9efe9c4484c4715447d8860071f71b1b7306a",
-    "/assets/icons/icon-384x384.png": "9f9a3be5d77c9eee9d37e2a1b1907503042a9744",
-    "/assets/icons/icon-512x512.png": "30684b43dfb685e4afda6653a8d323108f700958",
-    "/assets/icons/icon-72x72.png": "8695421eac9656c7887d815dd4a0252885da6a03",
-    "/assets/icons/icon-96x96.png": "5bbe4fd4f11931c9713fdc93f64fd4836000a38a",
+    "/assets/icons/icon-128x128.png": "d2d63cbe3e1e83b8bc01267e9607cd73876725a6",
+    "/assets/icons/icon-144x144.png": "3d855e47f0123c1b29507306e40229a99bd0aefa",
+    "/assets/icons/icon-152x152.png": "5bf52662cbfbd51e2d1287051287ae6fe6a1c817",
+    "/assets/icons/icon-192x192.png": "7ab35a81608b1a6d5fd414c3db10b7bac7be5e5f",
+    "/assets/icons/icon-384x384.png": "c1fc5360680129af7df113fb6357bce97e8c2bd0",
+    "/assets/icons/icon-512x512.png": "5a1ccb7608fe4a13496533b03491d3d92905c6dd",
+    "/assets/icons/icon-72x72.png": "f07e85bc3a135ffdf2b3d0b08a73eb80eff6ea84",
+    "/assets/icons/icon-96x96.png": "c2fc00a65c37cb6a18dd43f610a6423276ee2238",
     "/assets/img/gradientBackground.png": "07539d5c777f5f297e32aa9d98ca56399725cc8c",
-    "/assets/img/ilapa_icon.png": "1f046e3b1a4b42642125c6ce79d463f17a5aa71c",
     "/assets/img/miguiicon.png": "0f4dd2927df5c2e262bf8bab37a030d4ab443997",
     "/assets/img/miguita_mel.png": "ef7948a333554ef6ae2be758baf4444e29e9441c",
     "/assets/img/miguitas_logo.png": "e3c355de0018ee5e93644ec54e8a5ff258da979c",
@@ -513,7 +511,7 @@
     "/assets/img/yorkie.png": "ac274635a7e81a6993dd63429e829353293dc2c5",
     "/common-es2015.4ebac24785580628f431.js": "466fa3b149d569cec620bba761b24d6af80d742c",
     "/common-es5.53121a6ced9423895fb0.js": "c05e5bc358fc2f1bae1a8a704150820cc895b9c6",
-    "/index.html": "6ab76dfcbe0e92e4eac00607badad39cdc8b2bd8",
+    "/index.html": "c7b4f28f138ad6cc6874a9a788c52ad1e9a09b4d",
     "/main-es2015.9610205870896b2efc9e.js": "0a9921301fb2ae17097ce09495725ea9e9585dcc",
     "/main-es5.7bb4b731581ecee4cf6d.js": "f96c1e6a0990e81949335f2a191700b625947f0e",
     "/polyfills-es2015.f0946520d92c2f601e8d.js": "e843bddc6ff69cf4a7e059128a7d2ca5775ef760",
