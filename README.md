@@ -1,0 +1,1 @@
+`rm` everything but `CNAME` and the hidden `.git` folder.
