@@ -28,6 +28,10 @@
     "app.pages.home.benefit9": "Ayuda al sistema digestivo, respiratorio e inmunológico",
     "app.pages.home.schedule-title": "Horario",
     "app.pages.home.contact-title": "Contacto",
+
+    "app.pages.product.menu": "Menú",
+    "app.pages.product.html.daysnotice": "<strong>Importante!</strong> Los productos deben ordenarse con un mínimo de <strong>3</strong> días hábiles.",
+
     "to": "a",
     "mon": "Lunes",
     "tue": "Martes",
