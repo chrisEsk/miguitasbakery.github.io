@@ -9,6 +9,7 @@
     "app.label.categories": "Categorías",
     "app.label.action-cart-requires-user-session": "Debe iniciar sesión para agregar producto al carrito.",
     "app.label.select-quantity": "Indique la cantidad",
+    "app.label.loadmore": "Cargar Más",
 
     "app.pages.menu.logout": "Salir Sesión",
     "app.pages.menu.gotologin": "Iniciar Sesión",
