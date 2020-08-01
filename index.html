@@ -1,49 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Miguitas Bakery (･ᴥ･)</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Miguitas Bakery (･ᴥ･)</title>
+    <base href="/" />
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Miguitas Bakery 🐾 Premium gourmet treats for your pet!"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <link href="assets/icon/favicon.ico" rel="icon" type="image/x-icon" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <base href="/" />
-  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <meta name="description" content="Miguitas Bakery 🐾 Premium gourmet treats for your pet!">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="msapplication-tap-highlight" content="no">
-  <link href="assets/icon/favicon.ico" rel="icon" type="image/x-icon" />
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#D36788" />
+  <link rel="stylesheet" href="styles.bf6fcd3c097842b2e2d1.css"></head>
 
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#D36788">
-<link rel="stylesheet" href="styles.bf6fcd3c097842b2e2d1.css"></head>
+  <body>
+    <app-root></app-root>
+    <noscript>
+      Please enable JavaScript to continue using this application.
+    </noscript>
+    <script>
+      (function () {
+        // Retrieve the URL the user was trying to access when receiving the 404.
+        var redirect = sessionStorage.redirect;
+        // Remove the URL from sessionStorage.
+        delete sessionStorage.redirect;
+        // Check if we actually need to redirect.
+        if (redirect && redirect != location.href) {
+          // We need to redirect to the URL the user was trying to access.
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
 
-<body>
-  <app-root></app-root>
-  <noscript>Please enable JavaScript to continue using this application.</noscript>
-  <script>
-    (function () {
-      // Retrieve the URL the user was trying to access when receiving the 404.
-      var redirect = sessionStorage.redirect;
-      // Remove the URL from sessionStorage.
-      delete sessionStorage.redirect;
-      // Check if we actually need to redirect.
-      if (redirect && redirect != location.href) {
-        // We need to redirect to the URL the user was trying to access.
-        history.replaceState(null, null, redirect);
-      }
-    })();
-  </script>
-
-  <!-- Google Analytics -->
-  <script>
-    window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-    ga('create', 'UA-46014881-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
-<script src="runtime-es2015.6e54ffc6bfec7c055e0f.js" type="module"></script><script src="runtime-es5.6e54ffc6bfec7c055e0f.js" nomodule defer></script><script src="polyfills-es5.fbe876f1cd49f97fe4f7.js" nomodule defer></script><script src="polyfills-es2015.0e6e466864c41fd61a78.js" type="module"></script><script src="main-es2015.4435511d6d9bc01ca5e3.js" type="module"></script><script src="main-es5.4435511d6d9bc01ca5e3.js" nomodule defer></script></body>
-
+    <!-- Google Analytics -->
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-46014881-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+  <script src="runtime-es2015.6a30c95aa6415eb29f2c.js" type="module"></script><script src="runtime-es5.6a30c95aa6415eb29f2c.js" nomodule defer></script><script src="polyfills-es5.fbe876f1cd49f97fe4f7.js" nomodule defer></script><script src="polyfills-es2015.0e6e466864c41fd61a78.js" type="module"></script><script src="main-es2015.e6a814a8ac98cde8a03f.js" type="module"></script><script src="main-es5.e6a814a8ac98cde8a03f.js" nomodule defer></script></body>
 </html>
